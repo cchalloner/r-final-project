@@ -1,0 +1,132 @@
+---
+title: "Bike-Share Demand: Analysis and Recommendations for 2013"
+subtitle: "Programming in R Final Project"
+author: "Your name"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: false
+    self_contained: true
+---
+
+<!--
+HOW TO USE THIS FILE
+- The scenario, the manager's questions, and the required evidence are in Blackboard.
+- The data guide is in README.md.
+- Write your report under the headings below. Add code chunks wherever you need them.
+- Text inside these comment markers (like this note) does not appear in the knitted
+  report. You may leave the comments in place or delete them.
+-->
+
+<!--
+EXPECTATIONS LOG
+Before you start each question, write what you expect to find, then commit.
+Do not change entries later, even if your results differ. Your reflection must
+use one of these entries. Keep this log; do not delete it.
+
+Question 1 (before starting):
+
+Question 2 (before starting):
+
+Question 3 (before starting):
+
+Question 4 (before starting):
+
+-->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = TRUE,
+                      fig.width = 7, fig.height = 4.5)
+```
+
+```{r packages}
+library(tidyverse)
+library(broom)
+```
+
+## Summary for the manager
+
+<!-- Write this section last. In a few paragraphs, give the manager your main
+     findings and recommendation in plain language, with the key numbers that
+     support them. -->
+
+## Data preparation and checks
+
+<!-- Import the data, create the variables you need, and document your data checks.
+     Explain what you investigated, what you found, and any preparation decisions. -->
+
+```{r data-preparation}
+
+```
+
+## Question 1: When is demand highest and lowest?
+
+<!-- When is demand highest and lowest, and what should the manager do with that
+     information? -->
+
+```{r question-1}
+
+```
+
+## Question 2: How do casual and registered riders differ?
+
+<!-- How do casual and registered riders differ in their rental patterns, and why
+     might those differences matter operationally? -->
+
+```{r question-2}
+
+```
+
+## Question 3: How do temperature, humidity, and season relate to demand?
+
+<!-- How do temperature, humidity, and season relate to demand? Does considering
+     several factors together change the conclusions? -->
+
+```{r question-3}
+
+```
+
+## Question 4: What do I recommend, and what is uncertain?
+
+<!-- What recommendation can you support, and what uncertainty should the manager
+     consider before acting? -->
+
+## Reflection, verification, and AI use
+
+### A result that changed or confirmed my thinking
+
+<!-- Identify one specific output, quote the matching entry from your expectations
+     log, and explain what the result showed and why. -->
+
+### Verification
+
+<!-- What exactly did you check? How did you check it (code below, or a check already
+     visible in the report)? What did you find, and did you change anything? -->
+
+```{r verification}
+
+```
+
+### AI-use disclosure
+
+<!-- Describe any AI assistance and how you verified the work you included. If you
+     did not use AI, state that. -->
+
+### Evidence map
+
+<!-- Name the section and briefly describe the evidence, for example:
+     "Question 2: pivot_longer() of casual and registered counts." -->
+
+| Required evidence | Where it appears |
+|:--|:--|
+| 1. Data checks | |
+| 2. Transformations | |
+| 3. Grouped summaries | |
+| 4. Meaningful filtering | |
+| 5. Meaningful reshaping | |
+| 6. Visualizations (3+, 2+ types) | |
+| 7. Simple and multiple regression | |
+| 8. Prediction | |
+| 9. Residuals and limitation | |
+| 10. Supported recommendations | |
