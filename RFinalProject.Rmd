@@ -1,7 +1,6 @@
 ---
 title: "Bike-Share Demand: Analysis and Recommendations for 2013"
 subtitle: "Programming in R Final Project"
-author: "Your name"
 output:
   html_document:
     toc: true
